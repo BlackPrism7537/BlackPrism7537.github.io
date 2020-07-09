@@ -29,22 +29,47 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 20% 50% 30%;
+}
+
+.sideBarLeft {
+    background-color: var(--highlight);
+    opacity: 90%;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.sideBarLeft h2 {
+    color: white;
+}
+
+.sideBarLeft p {
+    color: lightgrey;
+}
+
+.sideBarLeft span {
+    color: grey;
 }
 
 .main {
     color: white;
 }
 
-.sideBar {
+.sideBarRight {
     background-color: var(--highlight);
+    opacity: 90%;
     padding: 5px;
     padding-left: 10px;
     border-radius: 10px;
 }
 
-.sideBar h2 {
+.sideBarRight h2 {
     color: white;
+}
+
+.sideBarRight p {
+    color: grey;
 }
 
 a {
@@ -57,19 +82,11 @@ a:hover {
     text-decoration: none;
 }
 
-.sideBar br {
-    size: 5px;
-}
-
-.sideBar p {
-    color: grey;
-}
-
 footer {
     background-color: var(--foreground);
     color: white;
     padding: 5px;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
 }
